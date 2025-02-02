@@ -1,0 +1,14 @@
+@keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-scroll {
+    display: flex;
+    animation: scroll 45s linear infinite;
+  }
+  

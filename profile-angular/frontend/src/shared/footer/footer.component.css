@@ -1,0 +1,11 @@
+:host{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%; /* Make it span the full width of the viewport */
+    background-color: #f8f9fa; /* Example background color */
+    padding: 10px 0; /* Add some padding for spacing */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+    z-index: 1;
+}

@@ -1,0 +1,22 @@
+<app-header></app-header>
+
+<div class="m-20 bg-white rounded-4xl p-8">
+    <div class="text-3xl font-bold mb-6"> SKILLS: </div>
+
+    <!-- Carousel Container -->
+    <div class="relative overflow-hidden w-full">
+        <div class="flex gap-8 whitespace-nowrap animate-scroll delay-500">
+            <div *ngFor="let i of skill | async; let idx = index" class="flex flex-col items-center space-y-4">
+                <!-- Skill Title -->
+                <div class="bg-gray-200 p-4 rounded-xl shadow-md text-lg font-semibold">
+                    {{ i.name }}
+                </div>
+                
+                <!-- Radar Chart -->
+                <canvas id="radarChart{{ idx }}"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
