@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Bal.ImmiBot.Api.props" />
+</Project>
